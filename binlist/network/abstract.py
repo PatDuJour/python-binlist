@@ -25,7 +25,7 @@ class AbstractNetwork(abc.ABC):
     def active(self):
         """
         Returns:
-            bool: True for Issuing Network is still active, 
+            bool: True for Issuing Network is still active,
                 False if is defunct.
         """
         pass

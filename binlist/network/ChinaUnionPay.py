@@ -12,11 +12,11 @@ class ChinaUnionPay(AbstractNetwork):
 
     @property
     def iin_ranges(self):
-        return [31,]
+        return ["31", ]
 
     @property
     def length(self):
-        return 19
+        return [19, ]
 
     @property
     def validation(self):

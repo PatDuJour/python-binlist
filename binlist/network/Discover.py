@@ -13,14 +13,14 @@ class Discover(AbstractNetwork):
     @property
     def iin_ranges(self):
         return [
-            6011,
-            64,
-            65
+            "6011",
+            "64",
+            "65",
         ]
 
     @property
     def length(self):
-        return 16
+        return [16, ]
 
     @property
     def validation(self):

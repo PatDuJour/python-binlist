@@ -12,11 +12,11 @@ class AmEx(AbstractNetwork):
 
     @property
     def iin_ranges(self):
-        return [34, 37]
+        return ["34", "37"]
 
     @property
     def length(self):
-        return 15
+        return [15, ]
 
     @property
     def validation(self):

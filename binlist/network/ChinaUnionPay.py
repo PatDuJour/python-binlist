@@ -1,10 +1,10 @@
 from .abstract import AbstractNetwork
 
 
-class AmEx(AbstractNetwork):
+class ChinaUnionPay(AbstractNetwork):
     @property
     def verbose_name(self):
-        return "American Express"
+        return "China UnionPay"
 
     @property
     def active(self):
@@ -12,11 +12,11 @@ class AmEx(AbstractNetwork):
 
     @property
     def iin_ranges(self):
-        return [34, 37]
+        return [31,]
 
     @property
     def length(self):
-        return 15
+        return 19
 
     @property
     def validation(self):

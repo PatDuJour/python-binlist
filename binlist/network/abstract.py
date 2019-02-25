@@ -2,6 +2,14 @@ import abc
 
 
 class AbstractNetwork(abc.ABC):
+
+    def __repr__(self):
+        resource_name = self.__class__.__name__
+        return f'<{resource_name.title()} Network>'
+
+    def __str__(self):
+        return self.verbose_name
+
     @property
     @abc.abstractmethod
     def verbose_name(self):

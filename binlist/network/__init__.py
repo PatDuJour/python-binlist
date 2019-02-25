@@ -9,6 +9,8 @@ from .MaestroUK import MaestroUK
 from .Mastercard import Mastercard
 from .RuPay import RuPay
 from .Visa import Visa
+from .Unknown import Unknown
+
 
 __all__ = [
     'AmEx',
@@ -22,6 +24,7 @@ __all__ = [
     'Mastercard',
     'RuPay',
     'Visa',
+    'Unknown',
 ]
 
 
@@ -36,3 +39,4 @@ MaestroUK = MaestroUK()
 Mastercard = Mastercard()
 RuPay = RuPay()
 Visa = Visa()
+Unknown = Unknown()

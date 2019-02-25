@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+
+"""Top-level package for Python BINlist."""
+
+__author__ = """Patrick Zhang"""
+__email__ = 'patdujour@gmail.com'
+__version__ = '0.1.0'

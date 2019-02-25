@@ -12,22 +12,6 @@ from .Visa import Visa
 from .Unknown import Unknown
 
 
-__all__ = [
-    'AmEx',
-    'ChinaTUnion',
-    'ChinaUnionPay',
-    'DCI',
-    'Discover',
-    'JCB',
-    'Maestro',
-    'MaestroUK',
-    'Mastercard',
-    'RuPay',
-    'Visa',
-    'Unknown',
-]
-
-
 AmEx = AmEx()
 ChinaTUnion = ChinaTUnion()
 ChinaUnionPay = ChinaUnionPay()
@@ -40,3 +24,20 @@ Mastercard = Mastercard()
 RuPay = RuPay()
 Visa = Visa()
 Unknown = Unknown()
+
+
+ALL = [
+    AmEx,
+    ChinaTUnion,
+    ChinaUnionPay,
+    DCI,
+    Discover,
+    JCB,
+    Maestro,
+    MaestroUK,
+    Mastercard,
+    RuPay,
+    Visa,
+]
+
+__all__ = map(str, ALL)

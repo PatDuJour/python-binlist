@@ -12,9 +12,7 @@ class Visa(AbstractNetwork):
 
     @property
     def iin_ranges(self):
-        return [
-            "4",
-        ]
+        return ["4", ]
 
     @property
     def length(self):

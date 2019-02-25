@@ -5,3 +5,11 @@
 __author__ = """Patrick Zhang"""
 __email__ = 'patdujour@gmail.com'
 __version__ = '0.1.0'
+
+from binlist.iin import BIN
+from binlist import network
+
+__all__ = [
+    'BIN',
+    'network',
+]

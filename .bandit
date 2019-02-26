@@ -1,2 +1,5 @@
 [bandit]
-exclude: /tests,/.github
+exclude_dirs:
+  - /tests/*.py
+  - /.github
+  - /venv

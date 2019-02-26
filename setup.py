@@ -11,7 +11,7 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = [ ]
+requirements = []
 
 setup_requirements = ['pytest-runner', ]
 
@@ -40,7 +40,7 @@ setup(
     include_package_data=True,
     keywords='binlist',
     name='binlist',
-    packages=find_packages(include=['binlist']),
+    packages=find_packages(exclude=['test*']),
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,

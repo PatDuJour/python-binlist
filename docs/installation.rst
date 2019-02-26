@@ -32,13 +32,13 @@ You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/patdujour/binlist
+    $ git clone git://github.com/patdujour/python-binlist
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl  -OL https://github.com/patdujour/binlist/tarball/master
+    $ curl  -OL https://github.com/patdujour/python-binlist/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/patdujour/binlist
-.. _tarball: https://github.com/patdujour/binlist/tarball/master
+.. _Github repo: https://github.com/patdujour/python-binlist
+.. _tarball: https://github.com/patdujour/python-binlist/tarball/master

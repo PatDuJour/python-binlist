@@ -25,5 +25,5 @@ deploy:
     secure: PLEASE_REPLACE_ME
   on:
     tags: true
-    repo: patdujour/binlist
+    repo: patdujour/python-binlist
     python: 3.6

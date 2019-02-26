@@ -1,10 +1,10 @@
 # Python BINlist
+[![PyPI version](https://badge.fury.io/py/binlist.svg)](https://badge.fury.io/py/binlist)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/86eb561a4ca74b038b058bc12e8e0409)](https://www.codacy.com/app/PatDuJour/python-binlist?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=PatDuJour/python-binlist&amp;utm_campaign=Badge_Grade)
 
-The Python BIN-list library provides convinent PCI compliant methods to lookup credit card BIN/IIN to help you 
-understand your credit card charges by enriching your customer's card data while maintaing (outside of) PCI compliance.
-It includes a pre-defined set of classes that represents Card Issuing Networks(American Express, Visa, etc.) with the most up-to-date
-pulished IIN rules.
+
+The Python BIN-list library provides convinent PCI compliant methods to lookup credit card BIN/IIN to help you understand your credit card charges by enriching your customer's card data while maintaing (outside of) PCI compliance.
+It includes a pre-defined set of classes that represents Card Issuing Networks(American Express, Visa, etc.) with the most up-to-date pulished IIN rules.
 
 
 ## Installation
